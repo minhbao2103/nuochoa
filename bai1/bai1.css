@@ -1,0 +1,389 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  margin: 0%;
+  background: rgb(236, 226, 226);
+}
+#head {
+  background: rgb(238, 233, 233);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+}
+#up ul {
+  list-style-type: none;
+}
+#up ul li {
+  padding: 20px;
+  float: left;
+}
+#up ul li a {
+  text-decoration: none;
+  color: black;
+}
+#up ul li a i {
+  padding: 20px;
+}
+#up ul li a p {
+  padding: 20px;
+}
+#search {
+  height: 35px;
+  width: 400px;
+  background: white;
+}
+#search input {
+  width: 380px;
+  padding: 10px;
+}
+#mid {
+  background: rgb(214, 205, 205);
+  width: 100%;
+  height: 2px;
+  float: left;
+}
+
+#down {
+  width: 100%;
+  height: 45px;
+  background: rgb(238, 233, 233);
+  float: left;
+  line-height: 45px;
+}
+#down ul {
+  list-style-type: none;
+  text-align: center;
+}
+#down ul li {
+  float: left;
+  padding: 0px 30px 0px 30px;
+}
+#down ul li a {
+  text-decoration: none;
+  color: BLACK;
+}
+#down ul li a:hover {
+  background: grey;
+  color: red;
+}
+#down ul li > .sub-menu {
+  display: none;
+}
+#down ul li:hover .sub-menu {
+  display: block;
+}
+
+#temp {
+  width: 100%;
+  height: 148px;
+  background: rgb(214, 205, 205);
+}
+#container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 650px;
+}
+
+#slidershow {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -999;
+}
+#slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.slide {
+  width: 20%;
+  transition: 0.7s;
+}
+.slide img {
+  height: 500px;
+  width: 100%;
+}
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.bar {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  background: grey;
+}
+.bar:hover {
+  background: rgb(255, 255, 255);
+  transition: 0.7s;
+  border: 2px solid rgb(0, 0, 0);
+}
+input[name="bottom"] {
+  position: absolute;
+  visibility: hidden;
+}
+#bottom_1:checked ~ .s1 {
+  margin-left: 0;
+}
+#bottom_2:checked ~ .s1 {
+  margin-left: -20%;
+}
+#bottom_3:checked ~ .s1 {
+  margin-left: -40%;
+}
+#bottom_4:checked ~ .s1 {
+  margin-left: -60%;
+}
+#bottom_5:checked ~ .s1 {
+  margin-left: -80%;
+}
+h2 {
+  position: absolute;
+  top: 50px;
+  color: black;
+}
+p i {
+  position: absolute;
+  top: 100px;
+  color: black;
+}
+#collection {
+  background: white;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#title {
+  background: white;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#main-content {
+  width: 100%;
+  height: 450px;
+  float: left;
+}
+.product {
+  width: 18%;
+  background-color: white;
+  height: 430px;
+  float: left;
+  margin: 12px;
+  text-align: center;
+  color: black;
+}
+.product img {
+  height: 360px;
+  width: 100%;
+}
+
+.product a p {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.product p:hover {
+  background: rgb(224, 205, 205);
+  transition: 0.7s;
+}
+
+#cover {
+  background: rgb(215, 226, 222);
+  height: 500px;
+  width: 100%;
+  float: left;
+  position: absolute;
+  top: 600px;
+}
+#cover img {
+  height: 500px;
+  width: 95%;
+  margin: 0px 0px 0px 30px;
+}
+#cover p {
+  position: absolute;
+  top: 200px;
+  right: 35px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+#temp-1 {
+  background: rgb(215, 226, 222);
+  width: 100%;
+  height: 550px;
+  float: left;
+}
+#collection-1 {
+  background: rgb(215, 226, 222);
+  width: 100%;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+}
+#title-1 {
+  background: rgb(215, 226, 222);
+  width: 100%;
+  height: 80px;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+}
+#container-product {
+  width: 100%;
+  height: 700px;
+  float: left;
+}
+.product-1 {
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  height: 320px;
+  float: left;
+  margin: 0px 30px 30px 30px;
+  text-align: center;
+  color: black;
+}
+.product-1 a img {
+  height: 250px;
+  width: 100%;
+}
+#visitor {
+  background: rgb(215, 226, 222);
+  width: 100%;
+  height: 80px;
+  float: left;
+  text-align: center;
+  line-height: 80px;
+  color: black;
+  font-size: 150%;
+}
+
+#video {
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+#video img {
+  width: 100%;
+  height: 500px;
+}
+
+#footer {
+  height: 400px;
+  width: 100%;
+  float: left;
+}
+#footer-1 {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+#footer-2 {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+#mini-footer-1 {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-1 img {
+  width: 200px;
+  margin: 0px 50px 0px 50px;
+  padding: 10px;
+}
+#mini-footer-1 ul {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  margin-top: 40px;
+}
+#mini-footer-1 ul li {
+  float: left;
+}
+#mini-footer-1 ul li a {
+  margin: 20px;
+  padding: 20px;
+  font-size: 200%;
+  color: black;
+}
+
+#mini-footer-2 {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-2 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-2 ul li {
+  padding: 7px;
+}
+#mini-footer-3 {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-3 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-3 ul li {
+  padding: 7px;
+}
+#mini-footer-4 {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-4 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-4 ul li {
+  padding: 7px;
+}
+#mini-footer-5 {
+  width: 100%;
+  height: 200px;
+  background: rgb(215, 226, 222);
+  float: left;
+}
+#mini-footer-5 p {
+  padding: 20px;
+}
+#timkiem {
+  background: white;
+  height: 30px;
+  width: 300px;
+  float: left;
+}
+#timkiem input {
+  height: 28px;
+  width: 250px;
+}
