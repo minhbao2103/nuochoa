@@ -1,0 +1,359 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+#head {
+  background: rgb(238, 233, 233);
+  height: 150px;
+  width: 100%;
+  position: fixed;
+}
+#up ul {
+  list-style-type: none;
+}
+#up ul li {
+  padding: 20px;
+  float: left;
+}
+#up ul li a {
+  text-decoration: none;
+  color: black;
+}
+#up ul li a i {
+  padding: 20px;
+}
+#up ul li a p {
+  padding: 20px;
+}
+#search {
+  height: 35px;
+  width: 400px;
+  background: white;
+}
+#search input {
+  width: 380px;
+  padding: 10px;
+}
+#mid {
+  background: rgb(214, 205, 205);
+  width: 100%;
+  height: 2px;
+  float: left;
+}
+
+#down {
+  width: 100%;
+  height: 45px;
+  background: rgb(238, 233, 233);
+  float: left;
+  line-height: 45px;
+}
+#down ul {
+  list-style-type: none;
+  text-align: center;
+}
+#down ul li {
+  float: left;
+  padding: 0px 30px 0px 30px;
+}
+#down ul li a {
+  text-decoration: none;
+  color: BLACK;
+}
+#down ul li a:hover {
+  background: grey;
+  color: red;
+}
+#down ul li > .sub-menu {
+  display: none;
+}
+#down ul li:hover .sub-menu {
+  display: block;
+}
+#temp {
+  background: white;
+  width: 100%;
+  height: 200px;
+}
+
+#container {
+  background: rgb(245, 245, 241);
+  height: 1350px;
+  width: 100%;
+}
+#slide-img {
+  background: rgb(218, 115, 115);
+  height: 500px;
+  width: 15%;
+  float: left;
+}
+#img {
+  background: rgb(245, 245, 241);
+  height: 500px;
+  width: 30%;
+  float: left;
+  background: rgb(243, 235, 235);
+}
+#img img {
+  width: 350px;
+  margin: 35px;
+  padding-top: 50px;
+}
+#content {
+  height: 500px;
+  width: 55%;
+  float: left;
+}
+#tren {
+  height: 130px;
+  width: 100%;
+  float: left;
+}
+#tren h2 {
+  padding: 15px;
+}
+#tren h1 {
+  padding: 15px;
+}
+#temp-2 {
+  width: 90%;
+  height: 2px;
+  background: grey;
+  float: left;
+  margin-left: 40px;
+}
+#giua {
+  height: 100px;
+  width: 100%;
+  float: left;
+}
+#giua p {
+  padding: 10px;
+  margin-left: 40px;
+}
+#khung {
+  width: 600px;
+  height: 40px;
+  background: white;
+  float: left;
+  margin-left: 50px;
+  border: 1px solid black;
+}
+#khung-1 {
+  width: 50%;
+  height: 40px;
+  background: black;
+  float: left;
+}
+#khung-1 p {
+  color: white;
+  padding-left: 85px;
+}
+#khung-2 {
+  width: 50%;
+  height: 40px;
+  background: white;
+  float: left;
+}
+#khung-2 p {
+  padding-left: 75px;
+}
+#duoi {
+  background: rgb(245, 245, 241);
+  height: 268px;
+  width: 100%;
+  float: left;
+}
+#duoi-1 {
+  padding: 10px;
+  margin-left: 40px;
+}
+#khungduoi-1 {
+  border: 1px solid black;
+  height: 35px;
+  width: 300px;
+  background: white;
+  float: left;
+  line-height: 35px;
+}
+#khungduoi-1 p {
+  text-align: center;
+}
+#duoi-2 {
+  height: 60px;
+  width: 500px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+#khungduoi-2 {
+  border: 1px solid black;
+  height: 35px;
+  width: 50px;
+  background: white;
+  float: left;
+  line-height: 35px;
+}
+#khungduoi-2 p {
+  text-align: center;
+}
+#duoi-3 {
+  border: 1px solid black;
+  height: 35px;
+  width: 600px;
+  background: white;
+  float: left;
+  line-height: 35px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#duoi-3 p {
+  text-align: center;
+}
+#duoi-3:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#duoi-4 {
+  width: 100%;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+#details {
+  border: 1px solid grey;
+  width: 100px;
+  height: 30px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
+  text-align: center;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+#content-1 {
+  border: 1px solid grey;
+  width: 95%;
+  height: 300px;
+  float: left;
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 130%;
+}
+#content-1 p {
+  margin: 15px;
+  margin-left: 50px;
+}
+#cover-amouage {
+  background-image: url(./hinhanh/tttt.jpg);
+  width: 73%;
+  height: 400px;
+  float: left;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+#footer {
+  background: blue;
+  height: 400px;
+  width: 100%;
+  float: left;
+}
+
+#footer-1 {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+#footer-2 {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+#mini-footer-1 {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-1 img {
+  width: 200px;
+  margin: 0px 50px 0px 50px;
+  padding: 10px;
+}
+#mini-footer-1 ul {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  margin-top: 40px;
+}
+#mini-footer-1 ul li {
+  float: left;
+}
+#mini-footer-1 ul li a {
+  margin: 20px;
+  padding: 20px;
+  font-size: 200%;
+  color: black;
+}
+
+#mini-footer-2 {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-2 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-2 ul li {
+  padding: 7px;
+}
+#mini-footer-3 {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-3 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-3 ul li {
+  padding: 7px;
+}
+#mini-footer-4 {
+  width: 50%;
+  height: 200px;
+  float: left;
+  background: rgb(215, 226, 222);
+}
+#mini-footer-4 ul {
+  margin: 50px;
+  list-style-type: none;
+}
+#mini-footer-4 ul li {
+  padding: 7px;
+}
+#mini-footer-5 {
+  width: 100%;
+  height: 200px;
+  background: rgb(215, 226, 222);
+  float: left;
+}
+#mini-footer-5 p {
+  padding: 20px;
+}
+#timkiem {
+  background: white;
+  height: 30px;
+  width: 300px;
+  float: left;
+}
+#timkiem input {
+  height: 28px;
+  width: 250px;
+}

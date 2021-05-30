@@ -1,7 +1,7 @@
 function hinhanh (image, name,name1, price,) {
     document.getElementById("main-content").innerHTML +=`
     <div class="product">
-    <a href=""><img src="` + image + `"></a>
+    <a href="./sanpham.html"><img src="` + image + `"></a>
     <h4>` + name + `</h4>
     <h4>` + name1 + `</h4>
    <p>` + price + `</p>
@@ -24,7 +24,7 @@ for (let i=0; i<5; i=i+1 ) {
 function hinhanhs (images, names, prices,) {
     document.getElementById("container-product").innerHTML +=`
     <div class="product-1">
-    <a href=""><img src="` + images + `"></a>
+    <a href="./sanpham.html"><img src="` + images + `"></a>
     <h4>` + names + `</h4>
     <p>` + prices + `</p>
     </div>
